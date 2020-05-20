@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9378a160-4356-4dd7-822f-741e4ee7c5d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YvulthQdXe9YKdNfsGcZl9AIVB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/testData" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="myFavorites" />
+      <recent name="addPost" />
+      <recent name="smokeTest" />
+      <recent name="endToEndScenarios" />
+      <recent name="loginAndLogout" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../WaseetAndroidAutomation" />
+      <recent name="$PROJECT_DIR$/src/main/java/helpers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/imranmoqbel/Documents/WaseetiOSAutomation/WaseetiOSAutomation-Intellij/testng.xml">
+    <configuration name="SmokeTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WaseetiOSAutomation-GitVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="smokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="smokeTest" />
+      <option name="MAIN_CLASS_NAME" value="smokeTest.SmokeTest2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTest2.RandomAddToFavorites" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WaseetiOSAutomation-GitVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="smokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="smokeTest" />
+      <option name="MAIN_CLASS_NAME" value="smokeTest.SmokeTest2" />
+      <option name="METHOD_NAME" value="RandomAddToFavorites" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/imranmoqbel/Documents/Waseet iOS Automation/Waseet iOS Automation - Intellij/smokeTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WaseetiOSAutomation-GitVersion" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smokeTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/imranmoqbel/Documents/WaseetiOSAutomation/WaseetiOSAutomation-Intellij/parallelTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WaseetiOSAutomation-GitVersion" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/parallelTests.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/imranmoqbel/Documents/WaseetiOSAutomation/WaseetiOSAutomation-Intellij/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WaseetiOSAutomation-GitVersion" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/imranmoqbel/Documents/WaseetiOSAutomation/WaseetiOSAutomation-Intellij/testng.xml" />
+        <item itemvalue="TestNG./Users/imranmoqbel/Documents/Waseet iOS Automation/Waseet iOS Automation - Intellij/smokeTest.xml" />
+        <item itemvalue="TestNG.SmokeTest2" />
+        <item itemvalue="TestNG.SmokeTest2.RandomAddToFavorites" />
+        <item itemvalue="TestNG./Users/imranmoqbel/Documents/WaseetiOSAutomation/WaseetiOSAutomation-Intellij/parallelTests.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9378a160-4356-4dd7-822f-741e4ee7c5d2" name="Default Changelist" comment="" />
+      <created>1583835543291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583835543291</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="168" key="#Inspections" timestamp="1584008150792">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="440" y="168" key="#Inspections/0.23.1680.960@0.23.1680.960" timestamp="1584008150792" />
+    <state x="440" y="166" key="#Project_Structure" timestamp="1584020086113">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="440" y="166" key="#Project_Structure/0.23.1680.960@0.23.1680.960" timestamp="1584020086113" />
+    <state x="578" y="195" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585234210432">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="578" y="195" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.960@0.23.1680.960" timestamp="1585234210432" />
+    <state x="578" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589973621078">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1589973621078" />
+    <state x="578" y="258" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.963@0.23.1680.963" timestamp="1583867428608" />
+    <state width="1638" height="319" key="GridCell.Tab.0.bottom" timestamp="1588874413604">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1587380079389" />
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1587403193791" />
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1586868292122" />
+    <state width="1638" height="319" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1588874413604" />
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1586860842737" />
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1586861193043" />
+    <state width="1638" height="319" key="GridCell.Tab.0.center" timestamp="1588874413603">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state width="1638" height="287" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1587380079388" />
+    <state width="1638" height="287" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1587403193791" />
+    <state width="1638" height="287" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1586868292122" />
+    <state width="1638" height="319" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1588874413603" />
+    <state width="1638" height="287" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1586860842736" />
+    <state width="1638" height="287" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1586861193042" />
+    <state width="1638" height="319" key="GridCell.Tab.0.left" timestamp="1588874413603">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state width="1638" height="287" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1587380079388" />
+    <state width="1638" height="287" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1587403193790" />
+    <state width="1638" height="287" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1586868292121" />
+    <state width="1638" height="319" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1588874413603" />
+    <state width="1638" height="287" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1586860842735" />
+    <state width="1638" height="287" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1586861193041" />
+    <state width="1638" height="319" key="GridCell.Tab.0.right" timestamp="1588874413603">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state width="1638" height="287" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1587380079389" />
+    <state width="1638" height="287" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1587403193791" />
+    <state width="1638" height="287" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1586868292122" />
+    <state width="1638" height="319" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1588874413603" />
+    <state width="1638" height="287" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1586860842736" />
+    <state width="1638" height="287" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1586861193042" />
+    <state x="519" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1589973396929">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="519" y="331" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1586868608398" />
+    <state x="519" y="332" key="com.intellij.ide.util.TipDialog/0.23.1680.954@0.23.1680.954" timestamp="1587413125279" />
+    <state x="519" y="333" key="com.intellij.ide.util.TipDialog/0.23.1680.956@0.23.1680.956" timestamp="1587721601883" />
+    <state x="519" y="333" key="com.intellij.ide.util.TipDialog/0.23.1680.958@0.23.1680.958" timestamp="1588870873238" />
+    <state x="519" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.960@0.23.1680.960" timestamp="1588075487632" />
+    <state x="519" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.961@0.23.1680.961" timestamp="1589973396929" />
+    <state x="441" y="257" width="816" height="550" key="find.popup" timestamp="1588871288805">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="441" y="257" width="842" height="486" key="find.popup/0.23.1680.958@0.23.1680.958" timestamp="1587388784324" />
+    <state x="441" y="257" width="816" height="550" key="find.popup/0.23.1680.960@0.23.1680.960" timestamp="1588871288805" />
+    <state x="441" y="257" width="816" height="550" key="find.popup/0.23.1680.961@0.23.1680.961" timestamp="1584955248392" />
+    <state x="441" y="257" width="816" height="550" key="find.popup/0.23.1680.963@0.23.1680.963" timestamp="1584958014842" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/addPost/AddRealEstatePost.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/endToEndScenarios/endToEndScenario.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/base/CustomSteps.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/base/CustomSteps.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

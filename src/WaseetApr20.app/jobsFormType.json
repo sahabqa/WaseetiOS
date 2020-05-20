@@ -1,0 +1,98 @@
+[
+    {        "SectionName": "WASEET.AddNewAdForm.Header.GeneralInfo.Title",
+        "results": [
+            {
+                "cellIdentifier": "WADropDownCell",
+                "identifier": "educational_level_field_name_values",
+                "paramKey": "educationalLevel",
+                "uiDefaultValue": "",
+                "uiDisplayName": "WASEET.AddNewAdForm.EducationalLevel.DisplayName",
+                "uiPlaceHolder": "",
+                "cellHeight":70
+            },
+            {
+                "cellIdentifier": "WADropDownCell",
+                "identifier": "work_experience_field_name_values",
+                "paramKey": "workExperience",
+                "uiDefaultValue": "",
+                "uiDisplayName": "WASEET.AddNewAdForm.WorkExperience.DisplayName",
+                "uiPlaceHolder": "",
+                "cellHeight":70
+            },
+            {
+                "cellIdentifier": "WATextFieldCell",
+                "identifier": "Salary",
+                "paramKey": "salary",
+                "uiDefaultValue": "",
+                "uiDisplayName": "WASEET.AddNewAdForm.Salary.DisplayName",
+                "uiPlaceHolder": "",
+                "textType": "numeric",
+                "cellHeight":96
+            },
+            {
+                "cellIdentifier": "WASwitchCell",
+                "identifier": "NoSalary",
+                "paramKey": "",
+                "uiDefaultValue": "0",
+                "uiDisplayName": "WASEET.AddNewAdForm.NoSalary.DisplayName",
+                "uiPlaceHolder": "",
+                "cellHeight":70
+            }
+        ]},
+    {"SectionName": "WASEET.AddNewAdForm.Header.LocationInfo.Title",
+        "results": [
+
+
+            {
+                "cellIdentifier": "WADropDownCell",
+                "identifier": "City",
+                "paramKey": "country",
+                "uiDefaultValue": "",
+                "uiDisplayName": "WASEET.AddNewAdForm.City.DisplayName",
+                "uiPlaceHolder": "",
+                "cellHeight":70
+            }
+        ]},
+    {   "SectionName": "WASEET.AddNewAdForm.Header.ContactInfo.Title",
+        "results": [
+
+            {
+                "cellIdentifier": "WACustomDropDownCell",
+                "identifier": "PhoneNumber",
+                "paramKey": "username",
+                "uiDefaultValue": "",
+                "uiDisplayName": "WASEET.AddNewAdForm.PhoneNumber.DisplayName",
+                "uiPlaceHolder": "",
+                "textType": "numeric",
+                "cellHeight":96
+            },
+            {
+                "cellIdentifier": "WATextFieldCell",
+                "identifier": "Email",
+                "paramKey": "email",
+                "uiDefaultValue": "",
+                "uiDisplayName": "WASEET.AddNewAdForm.Email.DisplayName",
+                "uiPlaceHolder": "",
+                "textType": "email",
+                "cellHeight":96
+            },
+            {
+                "cellIdentifier": "WASwitchCell",
+                "identifier": "HidePhoneNumber",
+                "paramKey": "noPhoneNumber",
+                "uiDefaultValue": "0",
+                "uiDisplayName": "WASEET.AddNewAdForm.HidePhoneNumber.DisplayName",
+                "uiPlaceHolder": "",
+                "cellHeight":70
+            },
+            {
+                "cellIdentifier": "WASwitchCell",
+                "identifier": "TOS",
+                "paramKey": "",
+                "uiDefaultValue": "1",
+                "uiDisplayName": "WASEET.AddNewAdForm.TOS.DisplayName",
+                "uiPlaceHolder": "",
+                "cellHeight":70
+            }
+        ]}
+]

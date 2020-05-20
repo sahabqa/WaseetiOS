@@ -1,0 +1,19 @@
+//
+//  Release.xcconfig
+//  Waseet
+//
+//  Created by Sanad Barjawi on 11/18/19.
+//  Copyright © 2019 ALSAHAB GLOBAL GENERAL TRADING WLL. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-Waseet/Pods-Waseet.release.xcconfig"
+SLASH=/
+
+BASE_URL = http:$(SLASH)/production.alwaseet.com/ // this is an example
+AUTH_BASE_URL = http:$(SLASH)/login-stg.waseet.net/cas3/service_api2/
+
+TOS_URL = http:$(SLASH)/%@.waseet.net/%@
+API_BASE_VERSION = mobile_apiv6/
+BASE_URL_USING_COUNTRY = http:$(SLASH)/%@.waseet.net/$(API_BASE_VERSION) //upload/sawsan/Global

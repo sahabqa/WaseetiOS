@@ -1,0 +1,80 @@
+[
+    {        "SectionName": "WASEET.AddNewAdForm.Header.GeneralInfo.Title",
+        "results": [
+            {
+                "cellIdentifier": "WATextFieldCell",
+                "identifier": "Price",
+                "paramKey": "price",
+                "uiDefaultValue": "",
+                "uiDisplayName": "WASEET.AddNewAdForm.Price.DisplayName",
+                "uiPlaceHolder": "",
+                "textType": "numeric",
+                "cellHeight":96
+            },
+            {
+                "cellIdentifier": "WASwitchCell",
+                "identifier": "NoPrice",
+                "paramKey": "price",
+                "uiDefaultValue": "1",
+                "uiDisplayName": "WASEET.AddNewAdForm.NoPrice.DisplayName",
+                "uiPlaceHolder": "",
+                "cellHeight":70
+            }
+        ]},
+    { "SectionName": "WASEET.AddNewAdForm.Header.LocationInfo.Title",
+        "results": [
+
+
+        {
+            "cellIdentifier": "WADropDownCell",
+            "identifier": "City",
+            "paramKey": "country",
+            "uiDefaultValue": "",
+            "uiDisplayName": "WASEET.AddNewAdForm.City.DisplayName",
+            "uiPlaceHolder": "",
+            "cellHeight":70
+        }
+    ]},
+    { "SectionName": "WASEET.AddNewAdForm.Header.ContactInfo.Title",
+        "results": [
+
+            {
+                "cellIdentifier": "WACustomDropDownCell",
+                "identifier": "PhoneNumber",
+                "paramKey": "username",
+                "uiDefaultValue": "",
+                "uiDisplayName": "WASEET.AddNewAdForm.PhoneNumber.DisplayName",
+                "uiPlaceHolder": "",
+                "textType": "numeric",
+                "cellHeight":96
+            },
+            {
+                "cellIdentifier": "WATextFieldCell",
+                "identifier": "Email",
+                "paramKey": "email",
+                "uiDefaultValue": "",
+                "uiDisplayName": "WASEET.AddNewAdForm.Email.DisplayName",
+                "uiPlaceHolder": "",
+                "textType": "email",
+                "cellHeight":96
+            },
+            {
+                "cellIdentifier": "WASwitchCell",
+                "identifier": "HidePhoneNumber",
+                "paramKey": "noPhoneNumber",
+                "uiDefaultValue": "0",
+                "uiDisplayName": "WASEET.AddNewAdForm.HidePhoneNumber.DisplayName",
+                "uiPlaceHolder": "",
+                "cellHeight":70
+            },
+            {
+                "cellIdentifier": "WASwitchCell",
+                "identifier": "TOS",
+                "paramKey": "",
+                "uiDefaultValue": "1",
+                "uiDisplayName": "WASEET.AddNewAdForm.TOS.DisplayName",
+                "uiPlaceHolder": "",
+                "cellHeight":70
+            }
+        ]}
+]

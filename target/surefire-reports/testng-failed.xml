@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="helpers.Listeners"/>
+    <listener class-name="helpers.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Waseet iOS Smoke-Test(failed)">
+    <classes>
+      <class name="smokeTest.SmokeTest">
+        <methods>
+          <include name="PostAddToFavorites"/>
+          <include name="AddCarPostWithImages"/>
+          <include name="PostReportAbuse"/>
+          <include name="LogoutFromApp"/>
+          <include name="resetApp"/>
+          <include name="DeleteFirstPost"/>
+          <include name="SearchPostResults"/>
+          <include name="EditCarPost"/>
+        </methods>
+      </class> <!-- smokeTest.SmokeTest -->
+    </classes>
+  </test> <!-- Waseet iOS Smoke-Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

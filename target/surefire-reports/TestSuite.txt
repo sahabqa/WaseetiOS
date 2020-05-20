@@ -1,0 +1,95 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 367.12 s <<< FAILURE! - in TestSuite
+smokeTest.SmokeTest.AddCarPostWithImages  Time elapsed: 26.369 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.AccessibilityId: تسجيل الدخول})
+	at smokeTest.SmokeTest.AddCarPostWithImages(SmokeTest.java:92)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@79351f41 (tried for 1 second(s) with 500 milliseconds interval)
+	at smokeTest.SmokeTest.AddCarPostWithImages(SmokeTest.java:92)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.AccessibilityId: تسجيل الدخول})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'imrans-MBP', ip: 'fe80:0:0:0:aa:a39f:3722:94b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_231'
+Driver info: driver.version: IOSDriver
+	at smokeTest.SmokeTest.AddCarPostWithImages(SmokeTest.java:92)
+
+smokeTest.SmokeTest.EditCarPost  Time elapsed: 26.728 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.AccessibilityId: تسجيل الدخول})
+	at smokeTest.SmokeTest.EditCarPost(SmokeTest.java:176)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@48d5f34e (tried for 1 second(s) with 500 milliseconds interval)
+	at smokeTest.SmokeTest.EditCarPost(SmokeTest.java:176)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.AccessibilityId: تسجيل الدخول})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'imrans-MBP', ip: 'fe80:0:0:0:aa:a39f:3722:94b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_231'
+Driver info: driver.version: IOSDriver
+	at smokeTest.SmokeTest.EditCarPost(SmokeTest.java:176)
+
+smokeTest.SmokeTest.PostAddToFavorites  Time elapsed: 26.514 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.AccessibilityId: تسجيل الدخول})
+	at smokeTest.SmokeTest.PostAddToFavorites(SmokeTest.java:246)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@77d2e85 (tried for 1 second(s) with 500 milliseconds interval)
+	at smokeTest.SmokeTest.PostAddToFavorites(SmokeTest.java:246)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.AccessibilityId: تسجيل الدخول})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'imrans-MBP', ip: 'fe80:0:0:0:aa:a39f:3722:94b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_231'
+Driver info: driver.version: IOSDriver
+	at smokeTest.SmokeTest.PostAddToFavorites(SmokeTest.java:246)
+
+smokeTest.SmokeTest.PostReportAbuse  Time elapsed: 26.516 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.AccessibilityId: تسجيل الدخول})
+	at smokeTest.SmokeTest.PostReportAbuse(SmokeTest.java:291)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@25bc0606 (tried for 1 second(s) with 500 milliseconds interval)
+	at smokeTest.SmokeTest.PostReportAbuse(SmokeTest.java:291)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.AccessibilityId: تسجيل الدخول})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'imrans-MBP', ip: 'fe80:0:0:0:aa:a39f:3722:94b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_231'
+Driver info: driver.version: IOSDriver
+	at smokeTest.SmokeTest.PostReportAbuse(SmokeTest.java:291)
+
+smokeTest.SmokeTest.SearchPostResults  Time elapsed: 26.154 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //XCUIElementTypeStaticText[@name='البحث']})
+	at smokeTest.SmokeTest.SearchPostResults(SmokeTest.java:340)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5dd91bca (tried for 1 second(s) with 500 milliseconds interval)
+	at smokeTest.SmokeTest.SearchPostResults(SmokeTest.java:340)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //XCUIElementTypeStaticText[@name='البحث']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'imrans-MBP', ip: 'fe80:0:0:0:aa:a39f:3722:94b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_231'
+Driver info: driver.version: IOSDriver
+	at smokeTest.SmokeTest.SearchPostResults(SmokeTest.java:340)
+
+smokeTest.SmokeTest.DeleteFirstPost  Time elapsed: 26.449 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.AccessibilityId: تسجيل الدخول})
+	at smokeTest.SmokeTest.DeleteFirstPost(SmokeTest.java:369)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@58ebfd03 (tried for 1 second(s) with 500 milliseconds interval)
+	at smokeTest.SmokeTest.DeleteFirstPost(SmokeTest.java:369)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.AccessibilityId: تسجيل الدخول})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'imrans-MBP', ip: 'fe80:0:0:0:aa:a39f:3722:94b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_231'
+Driver info: driver.version: IOSDriver
+	at smokeTest.SmokeTest.DeleteFirstPost(SmokeTest.java:369)
+
+smokeTest.SmokeTest.LogoutFromApp  Time elapsed: 26.506 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.AccessibilityId: تسجيل الدخول})
+	at smokeTest.SmokeTest.LogoutFromApp(SmokeTest.java:413)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4baf352a (tried for 1 second(s) with 500 milliseconds interval)
+	at smokeTest.SmokeTest.LogoutFromApp(SmokeTest.java:413)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.AccessibilityId: تسجيل الدخول})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'imrans-MBP', ip: 'fe80:0:0:0:aa:a39f:3722:94b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_231'
+Driver info: driver.version: IOSDriver
+	at smokeTest.SmokeTest.LogoutFromApp(SmokeTest.java:413)
+

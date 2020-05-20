@@ -1,0 +1,33 @@
+{
+  "sy" : [ {
+    "active" : "1",
+    "created_at" : "1577356602",
+    "en_tab_name" : "Market Directory",
+    "id" : "1",
+    "is_homepage" : "0",
+    "tab_action" : "daleel_alwaseet",
+    "tab_name" : "دليل الوسيط",
+    "tab_order" : "3",
+    "updated_at" : "1577631662"
+  }, {
+    "active" : "1",
+    "created_at" : "1577356756",
+    "en_tab_name" : "Commercial Ads",
+    "id" : "2",
+    "is_homepage" : "0",
+    "tab_action" : "commercial_ads",
+    "tab_name" : "الاعلانات التجارية",
+    "tab_order" : "1",
+    "updated_at" : "1577356756"
+  }, {
+    "active" : "1",
+    "created_at" : "1577357101",
+    "en_tab_name" : "Home page",
+    "id" : "3",
+    "is_homepage" : "1",
+    "tab_action" : "waseet_sections",
+    "tab_name" : "الصفحة الرئيسية",
+    "tab_order" : "2",
+    "updated_at" : "1577357101"
+  } ]
+}

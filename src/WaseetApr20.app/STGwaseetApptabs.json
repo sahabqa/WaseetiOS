@@ -1,0 +1,105 @@
+{
+  "ae" : [ {
+    "active" : "1",
+    "created_at" : "1568796804",
+    "en_tab_name" : "Home page",
+    "id" : "2",
+    "is_homepage" : "1",
+    "tab_action" : "waseet_sections",
+    "tab_name" : "الصفحة الرئيسية",
+    "tab_order" : "1",
+    "updated_at" : "1574072954"
+  }, {
+    "active" : "1",
+    "created_at" : "1569086908",
+    "en_tab_name" : " الاسم بالانجليزي",
+    "id" : "3",
+    "is_homepage" : "0",
+    "tab_action" : "commercial_ads",
+    "tab_name" : "الاعلانات التجارية",
+    "tab_order" : "2",
+    "updated_at" : "1574157884"
+  }, {
+    "active" : "1",
+    "created_at" : "1574073010",
+    "en_tab_name" : "Market Directory",
+    "id" : "4",
+    "is_homepage" : "0",
+    "tab_action" : "daleel_alwaseet",
+    "tab_name" : "دليل الوسيط",
+    "tab_order" : "3",
+    "updated_at" : "1574073010"
+  }, {
+    "active" : "1",
+    "created_at" : "1574073010",
+    "en_tab_name" : "Market Directory",
+    "id" : "4",
+    "is_homepage" : "0",
+    "tab_action" : "daleel_alwaseet",
+    "tab_name" : "دليل الوسيط",
+    "tab_order" : "3",
+    "updated_at" : "1574073010"
+  } ],
+  "eg" : [ {
+    "active" : "1",
+    "created_at" : "1574073076",
+    "en_tab_name" : "Market Directory",
+    "id" : "2",
+    "is_homepage" : "0",
+    "tab_action" : "daleel_alwaseet",
+    "tab_name" : "دليل الوسيط",
+    "tab_order" : "3",
+    "updated_at" : "1574073076"
+  }, {
+    "active" : "1",
+    "created_at" : "1574073103",
+    "en_tab_name" : "Commercial Ads",
+    "id" : "3",
+    "is_homepage" : "0",
+    "tab_action" : "commercial_ads",
+    "tab_name" : "الاعلانات التجارية",
+    "tab_order" : "2",
+    "updated_at" : "1574073103"
+  }, {
+    "active" : "1",
+    "created_at" : "1574073130",
+    "en_tab_name" : "Home page",
+    "id" : "4",
+    "is_homepage" : "1",
+    "tab_action" : "waseet_sections",
+    "tab_name" : "الصفحة الرئيسية",
+    "tab_order" : "1",
+    "updated_at" : "1574073130"
+  } ],
+  "kw" : [ {
+    "active" : "1",
+    "created_at" : "1571431477",
+    "en_tab_name" : "Home page",
+    "id" : "2",
+    "is_homepage" : "1",
+    "tab_action" : "waseet_sections",
+    "tab_name" : "الصفحة الرئيسية",
+    "tab_order" : "1",
+    "updated_at" : "1573986619"
+  }, {
+    "active" : "1",
+    "created_at" : "1571431504",
+    "en_tab_name" : "Commercial Ads",
+    "id" : "3",
+    "is_homepage" : "0",
+    "tab_action" : "commercial_ads",
+    "tab_name" : "الاعلانات التجارية",
+    "tab_order" : "2",
+    "updated_at" : "1573986705"
+  }, {
+    "active" : "1",
+    "created_at" : "1571431533",
+    "en_tab_name" : "Market Directory",
+    "id" : "4",
+    "is_homepage" : "0",
+    "tab_action" : "daleel_alwaseet",
+    "tab_name" : "دليل الوسيط",
+    "tab_order" : "3",
+    "updated_at" : "1573986737"
+  } ]
+}

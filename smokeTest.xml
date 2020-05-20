@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+
+    <listeners>
+
+        <listener class-name="helpers.Listeners">
+        </listener>
+
+        <listener class-name="helpers.ExtentReporterNG">
+        </listener>
+
+    </listeners>
+
+    <test name="Waseet iOS Smoke-Test">
+
+        <classes>
+
+            <class name="base.Configurations"/>
+            <class name="smokeTest.SmokeTest"/>
+
+        </classes>
+
+    </test>
+</suite>

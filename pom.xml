@@ -1,0 +1,347 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>tests</groupId>
+    <artifactId>CompleteFramework-iOS</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>WaseetiOSAutomaiton</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.java.version>1.8</project.java.version>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+    </properties>
+
+    <profiles>
+
+<!--        Smoke Test profile-->
+        <profile>
+
+            <id>SmokeTest</id>
+
+            <build>
+
+                <resources>
+                    <resource>
+
+                        <directory>src/main/java/resources</directory>
+                        <filtering>true</filtering>
+
+                    </resource>
+                </resources>
+
+                <plugins>
+
+
+                    <plugin>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <!-- latest version (2.20.1) does not work well with JUnit5 -->
+                        <version>2.19.1</version>
+                        <dependencies>
+                            <dependency>
+                                <groupId>org.junit.platform</groupId>
+                                <artifactId>junit-platform-surefire-provider</artifactId>
+                                <version>1.0.3</version>
+                            </dependency>
+                            <dependency>
+                                <groupId>org.junit.jupiter</groupId>
+                                <artifactId>junit-jupiter-engine</artifactId>
+                                <version>5.0.3</version>
+                            </dependency>
+                        </dependencies>
+                    </plugin>
+
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.0.0-M4</version>
+
+                        <configuration>
+
+
+                            <testFailureIgnore>true</testFailureIgnore>
+
+                            <suiteXmlFiles>
+                                <suiteXmlFile>smokeTest.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+
+                        </configuration>
+
+                    </plugin>
+                    <plugin>
+
+                        <groupId>ch.fortysix</groupId>
+                        <artifactId>maven-postman-plugin</artifactId>
+                        <version>0.1.6</version>
+                        <executions>
+                            <execution>
+                                <id>Report Generation</id>
+                                <phase>test</phase>
+                                <goals>
+                                    <goal>send-mail</goal>
+                                </goals>
+                                <inherited>true</inherited>
+                                <configuration>
+                                    <!-- From Email address -->
+                                    <from>Sahabqa@alsahabglobal.com</from>
+                                    <!-- Email subject -->
+                                    <subject>Test Automation Report</subject>
+                                    <!-- Fail the build if the mail doesn't reach -->
+                                    <failonerror>false</failonerror>
+                                    <!-- Email Body Content -->
+                                    <htmlMessage>
+                                        <![CDATA[
+                                    <p>New test build triggered!</p>
+                                    <p>Attached html file contains the test result status</p> 
+                                    ]]>
+                                    </htmlMessage>
+                                    <!-- host -->
+                                    <mailhost>smtp.gmail.com</mailhost>
+                                    <!-- port of the host -->
+                                    <mailport>465</mailport>
+                                    <mailssl>true</mailssl>
+                                    <mailAltConfig>true</mailAltConfig>
+                                    <!-- Email Authentication(Username and Password) -->
+                                    <mailuser>Sahabqa@alsahabglobal.com</mailuser>
+                                    <mailpassword>Sahabqa123456</mailpassword>
+                                    <receivers>
+                                        <!-- To Email address -->
+                                        <receiver>imran.moqbel@alsahabglobal.com</receiver>
+                                    </receivers>
+                                    <fileSets>
+                                        <fileSet>
+                                            <!-- Report directory Path -->
+                                            <directory>${basedir}/src/main/java/runReports/</directory>
+                                            <includes>
+                                                <!-- Report file name -->
+                                                <include>WaseetiOSRunReport.html</include>
+                                            </includes>
+                                        </fileSet>
+                                    </fileSets>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+
+        </profile>
+
+<!--        Random Test profile-->
+        <profile>
+
+            <id>RandomTest</id>
+
+            <build>
+
+                <resources>
+                    <resource>
+
+                        <directory>src/main/java/resources</directory>
+                        <filtering>true</filtering>
+
+                    </resource>
+                </resources>
+
+                <plugins>
+
+
+                    <plugin>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <!-- latest version (2.20.1) does not work well with JUnit5 -->
+                        <version>2.19.1</version>
+                        <dependencies>
+                            <dependency>
+                                <groupId>org.junit.platform</groupId>
+                                <artifactId>junit-platform-surefire-provider</artifactId>
+                                <version>1.0.3</version>
+                            </dependency>
+                            <dependency>
+                                <groupId>org.junit.jupiter</groupId>
+                                <artifactId>junit-jupiter-engine</artifactId>
+                                <version>5.0.3</version>
+                            </dependency>
+                        </dependencies>
+                    </plugin>
+
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.0.0-M4</version>
+
+                        <configuration>
+
+
+                            <testFailureIgnore>true</testFailureIgnore>
+
+                            <suiteXmlFiles>
+                                <suiteXmlFile>testng.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+
+                        </configuration>
+
+                    </plugin>
+                    <plugin>
+
+                        <groupId>ch.fortysix</groupId>
+                        <artifactId>maven-postman-plugin</artifactId>
+                        <version>0.1.6</version>
+                        <executions>
+                            <execution>
+                                <id>Report Generation</id>
+                                <phase>test</phase>
+                                <goals>
+                                    <goal>send-mail</goal>
+                                </goals>
+                                <inherited>true</inherited>
+                                <configuration>
+                                    <!-- From Email address -->
+                                    <from>Sahabqa@alsahabglobal.com</from>
+                                    <!-- Email subject -->
+                                    <subject>Test Automation Report</subject>
+                                    <!-- Fail the build if the mail doesn't reach -->
+                                    <failonerror>false</failonerror>
+                                    <!-- Email Body Content -->
+                                    <htmlMessage>
+                                        <![CDATA[
+                                    <p>New test build triggered!</p>
+                                    <p>Attached html file contains the test result status</p> 
+                                    ]]>
+                                    </htmlMessage>
+                                    <!-- host -->
+                                    <mailhost>smtp.gmail.com</mailhost>
+                                    <!-- port of the host -->
+                                    <mailport>465</mailport>
+                                    <mailssl>true</mailssl>
+                                    <mailAltConfig>true</mailAltConfig>
+                                    <!-- Email Authentication(Username and Password) -->
+                                    <mailuser>Sahabqa@alsahabglobal.com</mailuser>
+                                    <mailpassword>Sahabqa123456</mailpassword>
+                                    <receivers>
+                                        <!-- To Email address -->
+                                        <receiver>imran.moqbel@alsahabglobal.com</receiver>
+                                    </receivers>
+                                    <fileSets>
+                                        <fileSet>
+                                            <!-- Report directory Path -->
+                                            <directory>${basedir}/src/main/java/runReports/</directory>
+                                            <includes>
+                                                <!-- Report file name -->
+                                                <include>WaseetiOSRunReport.html</include>
+                                            </includes>
+                                        </fileSet>
+                                    </fileSets>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+
+        </profile>
+
+    </profiles>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>7.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.1.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.30</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.30</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-validator</groupId>
+            <artifactId>commons-validator</artifactId>
+            <version>1.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>4.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.uiautomation</groupId>
+            <artifactId>libimobiledevice-wrapper</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.0.3</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.1.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+
+    </dependencies>
+
+</project>
